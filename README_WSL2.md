@@ -2,7 +2,7 @@
 
 A comprehensive WSL2 project management system built on top of Script-Server, providing intelligent project discovery, execution, and monitoring capabilities.
 
-## 🚀 Features
+## Features
 
 ### 🔍 **Smart Project Discovery**
 - **Auto-detection**: Automatically discovers Node.js, Python, Docker, Go, Java, .NET projects
@@ -34,14 +34,14 @@ A comprehensive WSL2 project management system built on top of Script-Server, pr
 - **Integration**: Seamless integration with existing Script-Server functionality
 - **Extensible**: Plugin-based architecture for custom project types
 
-## 📋 Requirements
+## Requirements
 
 - **Windows 10/11** with WSL2 enabled
 - **Python 3.8+** for Script-Server backend
 - **Node.js 14+** for frontend development (optional)
 - **WSL2 Instances** with your development projects
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -110,7 +110,7 @@ python server.py --config-dir configs/
 
 Navigate to `http://localhost:5000` to access the WSL2 Project Manager dashboard.
 
-## 🏗️ Architecture
+## Architecture
 
 ### Foundation Approach
 The WSL2 Project Management System extends Script-Server's proven architecture by treating WSL2 projects as enhanced scripts with additional metadata (instance, ports, health checks, dependencies).
@@ -140,7 +140,7 @@ The WSL2 Project Management System extends Script-Server's proven architecture b
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 📚 API Reference
+## API Reference
 
 ### REST API Endpoints
 
@@ -182,7 +182,7 @@ The WSL2 Project Management System extends Script-Server's proven architecture b
 - `health_alert` - Health check failure notification
 - `instance_status_update` - WSL2 instance status change
 
-## 🔧 Configuration
+## Configuration
 
 ### Project Types
 

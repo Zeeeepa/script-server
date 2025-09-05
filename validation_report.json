@@ -1,0 +1,68 @@
+{
+  "timestamp": 1757104042.0590622,
+  "validation_results": {
+    "Code Structure Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.000133514404296875
+    },
+    "Python Syntax Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.2062520980834961
+    },
+    "Configuration Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 6.318092346191406e-05
+    },
+    "API Endpoint Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.00015282630920410156
+    },
+    "WebSocket Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.00011730194091796875
+    },
+    "Frontend Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.0001583099365234375
+    },
+    "Security Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "src/tests/list_values_test.py:40 - Potential security issue: shell=True",
+        "CORS allows all origins - consider restricting in production"
+      ],
+      "execution_time": 0.009095191955566406
+    },
+    "Performance Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.0001499652862548828
+    },
+    "Documentation Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.00012922286987304688
+    }
+  },
+  "summary": {
+    "total_gates": 9,
+    "passed": 9,
+    "failed": 0,
+    "total_warnings": 2
+  }
+}

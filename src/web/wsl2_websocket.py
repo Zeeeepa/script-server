@@ -48,6 +48,10 @@ class WSL2WebSocketHandler(WebSocketHandler):
             'message': 'Connected to WSL2 WebSocket',
             'timestamp': self._get_timestamp()
         })
+    
+    def on_open(self):
+        """Alias for open method for compatibility"""
+        return self.open()
         
         # Start periodic updates
         self.start_periodic_updates()
