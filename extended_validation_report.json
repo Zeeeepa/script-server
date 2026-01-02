@@ -1,0 +1,149 @@
+{
+  "timestamp": 1757104930.371244,
+  "validation_type": "extended",
+  "validation_results": {
+    "Code Structure Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.003859996795654297
+    },
+    "Python Syntax Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.29006195068359375
+    },
+    "Configuration Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 9.107589721679688e-05
+    },
+    "API Endpoint Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.00019240379333496094
+    },
+    "WebSocket Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.0001666545867919922
+    },
+    "Frontend Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.0005500316619873047
+    },
+    "Security Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [
+        "src/tests/list_values_test.py:40 - Potential security issue: shell=True",
+        "CORS allows all origins - consider restricting in production"
+      ],
+      "execution_time": 0.016618967056274414
+    },
+    "Performance Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.00021195411682128906
+    },
+    "Documentation Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.0004363059997558594
+    },
+    "Advanced Integration Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.00021982192993164062
+    },
+    "Performance Benchmark Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 1.7948203086853027,
+      "benchmark_results": {
+        "project_discovery": {
+          "projects": 100,
+          "time": 0.11576414108276367,
+          "projects_per_second": 863.8253526928225
+        },
+        "port_scanning": {
+          "ports": 1000,
+          "time": 1.005389928817749,
+          "ports_per_second": 994.6389667697516
+        },
+        "health_checks": {
+          "checks": 50,
+          "time": 0.542550802230835,
+          "checks_per_second": 92.15726858095563
+        },
+        "websocket_throughput": {
+          "messages": 1000,
+          "time": 0.0040302276611328125,
+          "messages_per_second": 248124.94084240418
+        },
+        "concurrent_operations": {
+          "operations": 10,
+          "time": 0.12571477890014648,
+          "operations_per_second": 79.54514248434435
+        }
+      }
+    },
+    "Edge Case Validation": {
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "execution_time": 0.0008466243743896484
+    }
+  },
+  "summary": {
+    "total_gates": 12,
+    "passed": 12,
+    "failed": 0,
+    "total_warnings": 2,
+    "total_execution_time": 2.1080760955810547
+  },
+  "performance_benchmarks": {
+    "Performance Benchmark Validation": {
+      "project_discovery": {
+        "projects": 100,
+        "time": 0.11576414108276367,
+        "projects_per_second": 863.8253526928225
+      },
+      "port_scanning": {
+        "ports": 1000,
+        "time": 1.005389928817749,
+        "ports_per_second": 994.6389667697516
+      },
+      "health_checks": {
+        "checks": 50,
+        "time": 0.542550802230835,
+        "checks_per_second": 92.15726858095563
+      },
+      "websocket_throughput": {
+        "messages": 1000,
+        "time": 0.0040302276611328125,
+        "messages_per_second": 248124.94084240418
+      },
+      "concurrent_operations": {
+        "operations": 10,
+        "time": 0.12571477890014648,
+        "operations_per_second": 79.54514248434435
+      }
+    }
+  },
+  "extended_metrics": {
+    "integration_tests": 1,
+    "performance_tests": 2,
+    "edge_case_tests": 1
+  }
+}
